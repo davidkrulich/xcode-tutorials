@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = EarlGreyApp;
+			productName = EarlGreyApp;
 		};
 /* End PBXAggregateTarget section */
 
@@ -507,12 +508,12 @@
 		7227F1DCCF52DE2EAD61160899308982 /* GREYAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAction.h; path = AppFramework/Action/GREYAction.h; sourceTree = "<group>"; };
 		724858BAE01B8FF4EA21BD2AECA38D63 /* GREYSwipeAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYSwipeAction.h; path = AppFramework/Action/GREYSwipeAction.h; sourceTree = "<group>"; };
 		734E634C2458A454E3A6719A7CD6881B /* NSURLSession+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+GREYApp.h"; path = "AppFramework/Additions/NSURLSession+GREYApp.h"; sourceTree = "<group>"; };
-		736BF0ACF4368D47772771301C2AAB86 /* libeDistantObject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libeDistantObject.a; path = libeDistantObject.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		736BF0ACF4368D47772771301C2AAB86 /* libeDistantObject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libeDistantObject.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		744681E35DFC257A9DBF3D155D56C96A /* GREYDataEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYDataEnumerator.h; path = UILib/Provider/GREYDataEnumerator.h; sourceTree = "<group>"; };
 		7628EBDDF2EBC6A0CF7BE0232AABA709 /* GREYConfigKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYConfigKey.m; path = CommonLib/Config/GREYConfigKey.m; sourceTree = "<group>"; };
 		777158824DB9632A422CEB432C86CD51 /* EDORemoteVariable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDORemoteVariable.h; path = Service/Sources/EDORemoteVariable.h; sourceTree = "<group>"; };
 		77D590EE97672C69D4BFE5A6FB4817A5 /* GREYTouchPathObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYTouchPathObject.h; path = CommonLib/Event/GREYTouchPathObject.h; sourceTree = "<group>"; };
-		780DA2395ACB9DAE97BCC44CEBE52D5D /* libPods-HelloWorldUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HelloWorldUITests.a"; path = "libPods-HelloWorldUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780DA2395ACB9DAE97BCC44CEBE52D5D /* libPods-HelloWorldUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		784B3BCC5DE72657BB6D0EE19EDD8149 /* EDOHostService+Handlers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EDOHostService+Handlers.h"; path = "Service/Sources/EDOHostService+Handlers.h"; sourceTree = "<group>"; };
 		784C8885909BF0DCE5F415EE67434760 /* GREYElementInteractionErrorHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYElementInteractionErrorHandler.h; path = TestLib/EarlGreyImpl/GREYElementInteractionErrorHandler.h; sourceTree = "<group>"; };
 		7884DC77196EDE80E791EFCD295E6A58 /* GREYMatchersShorthand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYMatchersShorthand.m; path = AppFramework/Matcher/GREYMatchersShorthand.m; sourceTree = "<group>"; };
@@ -523,7 +524,7 @@
 		7DB0C10C5EED4687D85D4F6092CB5E25 /* GREYFatalAsserts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYFatalAsserts.h; path = CommonLib/Assertion/GREYFatalAsserts.h; sourceTree = "<group>"; };
 		7E3DF76AB9C1535A20659B09FFA7CA44 /* GREYVisibilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYVisibilityChecker.h; path = UILib/VisibilityChecker/GREYVisibilityChecker.h; sourceTree = "<group>"; };
 		7EE6761F1836A201EEC2F40EC6CECA15 /* GREYTouchInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYTouchInfo.h; path = CommonLib/Event/GREYTouchInfo.h; sourceTree = "<group>"; };
-		8042E0571347AE0303DF3FDCF46C0878 /* libPods-HelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HelloWorldTests.a"; path = "libPods-HelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8042E0571347AE0303DF3FDCF46C0878 /* libPods-HelloWorldTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B71E66CC3ADB1AB2B70AAFCBED20C6 /* EDOServicePort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOServicePort.h; path = Service/Sources/EDOServicePort.h; sourceTree = "<group>"; };
 		824D8FEED82071C62D9F40918CBA9F48 /* NSProxy+EDOParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProxy+EDOParameter.m"; path = "Service/Sources/NSProxy+EDOParameter.m"; sourceTree = "<group>"; };
 		8403A9737706DC472E011AFA2E5D358B /* GREYElementMatcherBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYElementMatcherBlock.h; path = CommonLib/Matcher/GREYElementMatcherBlock.h; sourceTree = "<group>"; };
@@ -560,7 +561,7 @@
 		9A1CBA31E21EC2D5578293A8C8CD8BCE /* GREYLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYLayoutConstraint.m; path = CommonLib/Matcher/GREYLayoutConstraint.m; sourceTree = "<group>"; };
 		9A6B2A787958D3ECE1FA49487AB257DE /* GREYBaseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYBaseMatcher.h; path = CommonLib/Matcher/GREYBaseMatcher.h; sourceTree = "<group>"; };
 		9CA69D776E27CF153289EA792C63BB8D /* EDOBlockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOBlockObject.m; path = Service/Sources/EDOBlockObject.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DDDBA657577E2F87AE66CD073E2B856 /* Pods-HelloWorldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9E40942FD79840472D3C70F917B2295B /* EDOHostPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOHostPort.h; path = Channel/Sources/EDOHostPort.h; sourceTree = "<group>"; };
 		9EC02B6CFC5D7E0DA3C6858E243B07F5 /* Pods-HelloWorldUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWorldUITests-dummy.m"; sourceTree = "<group>"; };
@@ -583,7 +584,7 @@
 		AB90297CAA8A118AE79DCB10920D2985 /* EDOChannelUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOChannelUtil.h; path = Channel/Sources/EDOChannelUtil.h; sourceTree = "<group>"; };
 		ABCC523C0903253DBAD6B5DC69ACCABE /* XCUIApplication+GREYTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCUIApplication+GREYTest.m"; path = "TestLib/EarlGreyImpl/XCUIApplication+GREYTest.m"; sourceTree = "<group>"; };
 		ABF3BF02E2A6B4296E27544F33D853CD /* EDOExecutorMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOExecutorMessage.h; path = Service/Sources/EDOExecutorMessage.h; sourceTree = "<group>"; };
-		AC675EB414ECB8EEC804A6F074B69E67 /* libEarlGreyTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEarlGreyTest.a; path = libEarlGreyTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC675EB414ECB8EEC804A6F074B69E67 /* libEarlGreyTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEarlGreyTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8221174B56E40AF6E5F2A0714E6363 /* GREYElementInteraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYElementInteraction.h; path = AppFramework/Core/GREYElementInteraction.h; sourceTree = "<group>"; };
 		AC982322FF422E730BA54B69A65B7D53 /* GREYFailureScreenshotSaver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYFailureScreenshotSaver.h; path = TestLib/Exception/GREYFailureScreenshotSaver.h; sourceTree = "<group>"; };
 		ACDED750AEC1A867EB39167667B8992F /* NSError+GREYCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+GREYCommon.h"; path = "CommonLib/Error/NSError+GREYCommon.h"; sourceTree = "<group>"; };
@@ -659,7 +660,7 @@
 		E9906BE854F0B6C67AFC6F3523173AD9 /* GREYElementMatcherBlock+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GREYElementMatcherBlock+Private.h"; path = "CommonLib/Matcher/GREYElementMatcherBlock+Private.h"; sourceTree = "<group>"; };
 		E9A87327BFDCB33E0E2CDA0EF8437871 /* GREYAppStateTrackerObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAppStateTrackerObject.h; path = AppFramework/Synchronization/GREYAppStateTrackerObject.h; sourceTree = "<group>"; };
 		EA472F80ADC890E994E39BD41677CB53 /* EDOMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOMessage.h; path = Service/Sources/EDOMessage.h; sourceTree = "<group>"; };
-		ECDEAA2273A464F890AC52FDA8026A21 /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWorld.framework; path = "Pods-HelloWorld.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDEAA2273A464F890AC52FDA8026A21 /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB88DBA14574D1B96E86F543BF18554 /* GREYHostApplicationDistantObject+GREYTestHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GREYHostApplicationDistantObject+GREYTestHelper.h"; path = "AppFramework/DistantObject/GREYHostApplicationDistantObject+GREYTestHelper.h"; sourceTree = "<group>"; };
 		EE6EB27E5FA2B88E2025D5A8549402C8 /* GREYNSURLConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYNSURLConnectionDelegate.h; path = AppFramework/Delegate/GREYNSURLConnectionDelegate.h; sourceTree = "<group>"; };
 		EFE46E51218B9455E8460C2F8AAC4D65 /* GREYConfigKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYConfigKey.h; path = CommonLib/Config/GREYConfigKey.h; sourceTree = "<group>"; };
@@ -890,7 +891,6 @@
 				824D8FEED82071C62D9F40918CBA9F48 /* NSProxy+EDOParameter.m */,
 				C8A0BCE22A6363323A037E12269CBC99 /* Support Files */,
 			);
-			name = eDistantObject;
 			path = eDistantObject;
 			sourceTree = "<group>";
 		};
@@ -908,7 +908,6 @@
 				8F68A237D8FA67D2EA274CF86C3A7221 /* Frameworks */,
 				A4863EAD738E51056F9CA5F7E1C2FAF5 /* Support Files */,
 			);
-			name = EarlGreyApp;
 			path = EarlGreyApp;
 			sourceTree = "<group>";
 		};
@@ -1135,7 +1134,6 @@
 				ABCC523C0903253DBAD6B5DC69ACCABE /* XCUIApplication+GREYTest.m */,
 				6716A5031B8EBC550834358555B9F2C9 /* Support Files */,
 			);
-			name = EarlGreyTest;
 			path = EarlGreyTest;
 			sourceTree = "<group>";
 		};
@@ -1539,6 +1537,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = A4012499FF1D3575943B108B3DE48487 /* Products */;
