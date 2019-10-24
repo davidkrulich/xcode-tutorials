@@ -2,6 +2,10 @@
 
 The repository is supporting tutorial videos available on youtube:
 
+[Header comments | Xcode Quick Tip #24](https://www.youtube.com/watch?v=ftsJO8B-mbE&list=PLO8TmECTmC9Km8k4M-SPxNUbLClKIpP23&index=25)
+
+[Comments in code | Xcode Quick Tip #23](https://www.youtube.com/watch?v=BOuL9mQjYSE&list=PLO8TmECTmC9Km8k4M-SPxNUbLClKIpP23&index=24)
+
 [Install Earl Grey 2 UI testing Cocoa Pods | Xcode Quick Tip #22](https://www.youtube.com/watch?v=KQaA11qVQn0&list=PLO8TmECTmC9Km8k4M-SPxNUbLClKIpP23&index=23)
 
 [Init CocoaPods | Xcode Quick Tip #21](https://www.youtube.com/watch?v=eM4AWTfjyMc&list=PLO8TmECTmC9Km8k4M-SPxNUbLClKIpP23&index=22)
