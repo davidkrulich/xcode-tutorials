@@ -17,7 +17,7 @@ class TestMemberwiseGenerating {
         self.bar12 = bar
         self.foo = foo
         
-        format(with: "test")
+        _ = format(with: "test")
     }
     
     /// Some comment.
