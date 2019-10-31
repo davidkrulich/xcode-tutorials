@@ -6,7 +6,7 @@ target 'HelloWorld' do
   use_frameworks!
 
   # Pods for HelloWorld
-  pod 'EarlGreyApp'
+#  pod 'EarlGreyApp'
 end
 
 target 'HelloWorldTests' do
@@ -16,5 +16,5 @@ end
 
 target 'HelloWorldUITests' do
   # Pods for testing
-  pod 'EarlGreyTest'
+#  pod 'EarlGreyTest'
 end
