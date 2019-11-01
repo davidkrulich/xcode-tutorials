@@ -61,4 +61,15 @@ class HelloWorldTests: XCTestCase {
             XCTAssertEqual(name, "custom difficulty")
         }
     }
+    
+    func testAsync() {
+        let exp = expectation(description: "testAsync")
+        
+        Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { _ in
+            // Needs waiting for results.
+            exp.fulfill()
+        }
+        
+        waitForExpectations(timeout: 4, handler: nil) // Ok.
+    }
 }
