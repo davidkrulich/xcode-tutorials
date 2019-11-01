@@ -30,9 +30,9 @@ class HelloWorldUITests: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
-        EarlGrey
-        .selectElement(with: grey_accessibilityID("TestLabel"))
-        .assert(grey_notNil())
+//        EarlGrey
+//        .selectElement(with: grey_accessibilityID("TestLabel"))
+//        .assert(grey_notNil())
     }
 
 }

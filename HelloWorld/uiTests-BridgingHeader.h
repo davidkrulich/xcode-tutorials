@@ -6,4 +6,4 @@
 //  Copyright © 2019 David Krulich. All rights reserved.
 //
 
-#import <EarlGreyTest/EarlGrey.h>
+//#import <EarlGreyTest/EarlGrey.h>
