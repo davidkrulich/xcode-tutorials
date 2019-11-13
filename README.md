@@ -2,6 +2,10 @@
 
 The repository is supporting tutorial videos available on youtube:
 
+[Async unit test | Xcode Quick Tip #26](https://www.youtube.com/watch?v=biTfvJ5QrhE&list=PLO8TmECTmC9Km8k4M-SPxNUbLClKIpP23&index=27)
+
+[Running Xcode and Simulator in fullscreen | Xcode Quick Tip #25](https://www.youtube.com/watch?v=x2oaQtnMEhg&list=PLO8TmECTmC9Km8k4M-SPxNUbLClKIpP23&index=26)
+
 [Header comments | Xcode Quick Tip #24](https://www.youtube.com/watch?v=ftsJO8B-mbE&list=PLO8TmECTmC9Km8k4M-SPxNUbLClKIpP23&index=25)
 
 [Comments in code | Xcode Quick Tip #23](https://www.youtube.com/watch?v=BOuL9mQjYSE&list=PLO8TmECTmC9Km8k4M-SPxNUbLClKIpP23&index=24)
