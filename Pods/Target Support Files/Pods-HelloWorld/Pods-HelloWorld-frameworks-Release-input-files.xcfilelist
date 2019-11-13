@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh
-${PODS_ROOT}/EarlGreyApp/AppFramework.framework
+${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper-framework/AlamofireObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper-framework/ObjectMapper.framework

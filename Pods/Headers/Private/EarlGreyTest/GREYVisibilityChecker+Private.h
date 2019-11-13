@@ -1,1 +1,0 @@
-../../../EarlGreyTest/UILib/VisibilityChecker/GREYVisibilityChecker+Private.h

@@ -1,0 +1,6 @@
+module ObjectMapper {
+  umbrella header "ObjectMapper-library-umbrella.h"
+
+  export *
+  module * { export * }
+}
