@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		08B2269360369426F96E982F /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F1822D9E381E1B139C03F0 /* Pods_HelloWorld.framework */; };
+		120981D5237C1A880090EA1A /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120981D4237C1A880090EA1A /* WeatherModel.swift */; };
+		120981D7237C1B430090EA1A /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120981D6237C1B430090EA1A /* WeatherApi.swift */; };
+		120981D9237C1BF90090EA1A /* WeatherApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120981D8237C1BF90090EA1A /* WeatherApiTests.swift */; };
 		122A561A233D3843006625EB /* FooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122A5619233D3843006625EB /* FooViewController.swift */; };
 		12A0326722F57B690065D09C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A0326622F57B690065D09C /* AppDelegate.swift */; };
 		12A0326922F57B690065D09C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A0326822F57B690065D09C /* ViewController.swift */; };
@@ -44,6 +47,9 @@
 
 /* Begin PBXFileReference section */
 		033C757A5AD64D7E972EB87F /* Pods-HelloWorldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldUITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldUITests/Pods-HelloWorldUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		120981D4237C1A880090EA1A /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		120981D6237C1B430090EA1A /* WeatherApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApi.swift; sourceTree = "<group>"; };
+		120981D8237C1BF90090EA1A /* WeatherApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApiTests.swift; sourceTree = "<group>"; };
 		122A5619233D3843006625EB /* FooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooViewController.swift; sourceTree = "<group>"; };
 		12A0326322F57B690065D09C /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A0326622F57B690065D09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120981D3237C1A790090EA1A /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				120981D4237C1A880090EA1A /* WeatherModel.swift */,
+				120981D6237C1B430090EA1A /* WeatherApi.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
 		12A0325A22F57B690065D09C = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +143,7 @@
 		12A0326522F57B690065D09C /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				120981D3237C1A790090EA1A /* Weather */,
 				12CA8E7822FC597200538BA7 /* Extensions */,
 				12A0326622F57B690065D09C /* AppDelegate.swift */,
 				12AB51D522FC9AED0010D64B /* Difficulty.swift */,
@@ -149,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				12A0327E22F57B6B0065D09C /* HelloWorldTests.swift */,
+				120981D8237C1BF90090EA1A /* WeatherApiTests.swift */,
 				12A0328022F57B6B0065D09C /* Info.plist */,
 			);
 			path = HelloWorldTests;
@@ -422,7 +439,9 @@
 				12AB51D622FC9AED0010D64B /* Difficulty.swift in Sources */,
 				12CA8E8022FC5A5E00538BA7 /* StringExtensions.swift in Sources */,
 				12A0326922F57B690065D09C /* ViewController.swift in Sources */,
+				120981D5237C1A880090EA1A /* WeatherModel.swift in Sources */,
 				12A0326722F57B690065D09C /* AppDelegate.swift in Sources */,
+				120981D7237C1B430090EA1A /* WeatherApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12A0327F22F57B6B0065D09C /* HelloWorldTests.swift in Sources */,
+				120981D9237C1BF90090EA1A /* WeatherApiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
