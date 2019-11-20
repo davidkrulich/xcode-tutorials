@@ -11,10 +11,23 @@ import XCTest
 
 class WeatherApiTests: XCTestCase {
     
-    func testWeatherData() {
-        let exp = expectation(description: "testWeatherData")
+    func testWeatherDataAlamofire() {
+        let exp = expectation(description: "testWeatherDataAlamofire")
         
-        WeatherApi.getData { data in
+        let api = WeatherApiAlamofire()
+        api.getData(place: .place("London,uk")) { data in
+            XCTAssertEqual(data?.main?.temperature, 280.32)
+            exp.fulfill()
+        }
+        
+        waitForExpectations(timeout: 4, handler: nil)
+    }
+    
+    func testWeatherDataURLSession() {
+        let exp = expectation(description: "testWeatherDataURLSession")
+        
+        let api = WeatherApiURLSession()
+        api.getData(place: .place("London,uk")) { data in
             XCTAssertEqual(data?.main?.temperature, 280.32)
             exp.fulfill()
         }
