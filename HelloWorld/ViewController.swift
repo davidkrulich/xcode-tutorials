@@ -17,11 +17,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         print("Hello World")
         
+        AppIntent.allowSiri()
+        AppIntent.temperature()
+        
         label.accessibilityIdentifier = "TestLabel"
         // Comment
-        let viewController = FooViewController(viewModel: DefaultFooViewModel())
-        viewController.modalPresentationStyle = .fullScreen
-        present(viewController, animated: true, completion: nil)
+//        let viewController = FooViewController(viewModel: DefaultFooViewModel())
+//        viewController.modalPresentationStyle = .fullScreen
+//        present(viewController, animated: true, completion: nil)
         
 //        let test = TestMemberwiseGenerating(foo: "foo 123", bar: 321)
 //        print(test.bar12)

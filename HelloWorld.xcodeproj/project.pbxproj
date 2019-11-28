@@ -12,6 +12,16 @@
 		120981D7237C1B430090EA1A /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120981D6237C1B430090EA1A /* WeatherApi.swift */; };
 		120981D9237C1BF90090EA1A /* WeatherApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120981D8237C1BF90090EA1A /* WeatherApiTests.swift */; };
 		122A561A233D3843006625EB /* FooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122A5619233D3843006625EB /* FooViewController.swift */; };
+		1230C578238EF1C400123797 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C577238EF1C400123797 /* IntentHandler.swift */; };
+		1230C580238EF1C400123797 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1230C57F238EF1C400123797 /* IntentsUI.framework */; };
+		1230C583238EF1C400123797 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C582238EF1C400123797 /* IntentViewController.swift */; };
+		1230C586238EF1C400123797 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1230C584238EF1C400123797 /* MainInterface.storyboard */; };
+		1230C58A238EF1C400123797 /* HelloWorldIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1230C57E238EF1C400123797 /* HelloWorldIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1230C58D238EF1C400123797 /* HelloWorldIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1230C575238EF1C400123797 /* HelloWorldIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1230C596238EF1D700123797 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1230C595238EF1D700123797 /* Intents.intentdefinition */; };
+		1230C598238EF23100123797 /* TemperatureIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C597238EF23100123797 /* TemperatureIntentHandler.swift */; };
+		1230C599238EF29100123797 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1230C595238EF1D700123797 /* Intents.intentdefinition */; };
+		1230C59B238EF30400123797 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C59A238EF30400123797 /* AppIntent.swift */; };
 		12A0326722F57B690065D09C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A0326622F57B690065D09C /* AppDelegate.swift */; };
 		12A0326922F57B690065D09C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A0326822F57B690065D09C /* ViewController.swift */; };
 		12A0326C22F57B690065D09C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A0326A22F57B690065D09C /* Main.storyboard */; };
@@ -29,6 +39,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1230C588238EF1C400123797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A0325B22F57B690065D09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1230C57D238EF1C400123797;
+			remoteInfo = HelloWorldIntentsUI;
+		};
+		1230C58B238EF1C400123797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A0325B22F57B690065D09C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1230C574238EF1C400123797;
+			remoteInfo = HelloWorldIntents;
+		};
 		12A0327B22F57B6B0065D09C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 12A0325B22F57B690065D09C /* Project object */;
@@ -45,12 +69,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1230C594238EF1C400123797 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1230C58D238EF1C400123797 /* HelloWorldIntents.appex in Embed App Extensions */,
+				1230C58A238EF1C400123797 /* HelloWorldIntentsUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		033C757A5AD64D7E972EB87F /* Pods-HelloWorldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldUITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldUITests/Pods-HelloWorldUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		120981D4237C1A880090EA1A /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		120981D6237C1B430090EA1A /* WeatherApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApi.swift; sourceTree = "<group>"; };
 		120981D8237C1BF90090EA1A /* WeatherApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApiTests.swift; sourceTree = "<group>"; };
 		122A5619233D3843006625EB /* FooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooViewController.swift; sourceTree = "<group>"; };
+		1230C570238EF1AE00123797 /* HelloWorld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloWorld.entitlements; sourceTree = "<group>"; };
+		1230C575238EF1C400123797 /* HelloWorldIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HelloWorldIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1230C577238EF1C400123797 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		1230C579238EF1C400123797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1230C57E238EF1C400123797 /* HelloWorldIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HelloWorldIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1230C57F238EF1C400123797 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		1230C582238EF1C400123797 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		1230C585238EF1C400123797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1230C587238EF1C400123797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1230C595238EF1D700123797 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		1230C597238EF23100123797 /* TemperatureIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureIntentHandler.swift; sourceTree = "<group>"; };
+		1230C59A238EF30400123797 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		12A0326322F57B690065D09C /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A0326622F57B690065D09C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A0326822F57B690065D09C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +133,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1230C572238EF1C400123797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1230C57B238EF1C400123797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1230C580238EF1C400123797 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12A0326022F57B690065D09C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,12 +184,35 @@
 			path = Weather;
 			sourceTree = "<group>";
 		};
+		1230C576238EF1C400123797 /* HelloWorldIntents */ = {
+			isa = PBXGroup;
+			children = (
+				1230C579238EF1C400123797 /* Info.plist */,
+				1230C577238EF1C400123797 /* IntentHandler.swift */,
+				1230C595238EF1D700123797 /* Intents.intentdefinition */,
+				1230C597238EF23100123797 /* TemperatureIntentHandler.swift */,
+			);
+			path = HelloWorldIntents;
+			sourceTree = "<group>";
+		};
+		1230C581238EF1C400123797 /* HelloWorldIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				1230C582238EF1C400123797 /* IntentViewController.swift */,
+				1230C584238EF1C400123797 /* MainInterface.storyboard */,
+				1230C587238EF1C400123797 /* Info.plist */,
+			);
+			path = HelloWorldIntentsUI;
+			sourceTree = "<group>";
+		};
 		12A0325A22F57B690065D09C = {
 			isa = PBXGroup;
 			children = (
 				12A0326522F57B690065D09C /* HelloWorld */,
 				12A0327D22F57B6B0065D09C /* HelloWorldTests */,
 				12A0328822F57B6B0065D09C /* HelloWorldUITests */,
+				1230C576238EF1C400123797 /* HelloWorldIntents */,
+				1230C581238EF1C400123797 /* HelloWorldIntentsUI */,
 				12A0326422F57B690065D09C /* Products */,
 				ED015360F742B9CEFC9E9C40 /* Pods */,
 				3DB3628351217F58DEED3E4A /* Frameworks */,
@@ -136,6 +225,8 @@
 				12A0326322F57B690065D09C /* HelloWorld.app */,
 				12A0327A22F57B6B0065D09C /* HelloWorldTests.xctest */,
 				12A0328522F57B6B0065D09C /* HelloWorldUITests.xctest */,
+				1230C575238EF1C400123797 /* HelloWorldIntents.appex */,
+				1230C57E238EF1C400123797 /* HelloWorldIntentsUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +234,11 @@
 		12A0326522F57B690065D09C /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				1230C570238EF1AE00123797 /* HelloWorld.entitlements */,
 				120981D3237C1A790090EA1A /* Weather */,
 				12CA8E7822FC597200538BA7 /* Extensions */,
 				12A0326622F57B690065D09C /* AppDelegate.swift */,
+				1230C59A238EF30400123797 /* AppIntent.swift */,
 				12AB51D522FC9AED0010D64B /* Difficulty.swift */,
 				12A0326822F57B690065D09C /* ViewController.swift */,
 				122A5619233D3843006625EB /* FooViewController.swift */,
@@ -195,6 +288,7 @@
 				E0F1822D9E381E1B139C03F0 /* Pods_HelloWorld.framework */,
 				CBF23F7DBAA2BC1FA3E5FBDD /* libPods-HelloWorldTests.a */,
 				7228F177453AE5E7092E4DAA /* libPods-HelloWorldUITests.a */,
+				1230C57F238EF1C400123797 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -215,6 +309,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1230C574238EF1C400123797 /* HelloWorldIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1230C591238EF1C400123797 /* Build configuration list for PBXNativeTarget "HelloWorldIntents" */;
+			buildPhases = (
+				1230C571238EF1C400123797 /* Sources */,
+				1230C572238EF1C400123797 /* Frameworks */,
+				1230C573238EF1C400123797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldIntents;
+			productName = HelloWorldIntents;
+			productReference = 1230C575238EF1C400123797 /* HelloWorldIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1230C57D238EF1C400123797 /* HelloWorldIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1230C58E238EF1C400123797 /* Build configuration list for PBXNativeTarget "HelloWorldIntentsUI" */;
+			buildPhases = (
+				1230C57A238EF1C400123797 /* Sources */,
+				1230C57B238EF1C400123797 /* Frameworks */,
+				1230C57C238EF1C400123797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldIntentsUI;
+			productName = HelloWorldIntentsUI;
+			productReference = 1230C57E238EF1C400123797 /* HelloWorldIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		12A0326222F57B690065D09C /* HelloWorld */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12A0328E22F57B6B0065D09C /* Build configuration list for PBXNativeTarget "HelloWorld" */;
@@ -224,10 +352,13 @@
 				12A0326022F57B690065D09C /* Frameworks */,
 				12A0326122F57B690065D09C /* Resources */,
 				C9718CAF279729E5638E76E1 /* [CP] Embed Pods Frameworks */,
+				1230C594238EF1C400123797 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1230C589238EF1C400123797 /* PBXTargetDependency */,
+				1230C58C238EF1C400123797 /* PBXTargetDependency */,
 			);
 			name = HelloWorld;
 			productName = HelloWorld;
@@ -278,10 +409,16 @@
 		12A0325B22F57B690065D09C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "David Krulich";
 				TargetAttributes = {
+					1230C574238EF1C400123797 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					1230C57D238EF1C400123797 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					12A0326222F57B690065D09C = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -311,11 +448,28 @@
 				12A0326222F57B690065D09C /* HelloWorld */,
 				12A0327922F57B6B0065D09C /* HelloWorldTests */,
 				12A0328422F57B6B0065D09C /* HelloWorldUITests */,
+				1230C574238EF1C400123797 /* HelloWorldIntents */,
+				1230C57D238EF1C400123797 /* HelloWorldIntentsUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1230C573238EF1C400123797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1230C57C238EF1C400123797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1230C586238EF1C400123797 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12A0326122F57B690065D09C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,6 +583,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1230C571238EF1C400123797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1230C596238EF1D700123797 /* Intents.intentdefinition in Sources */,
+				1230C598238EF23100123797 /* TemperatureIntentHandler.swift in Sources */,
+				1230C578238EF1C400123797 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1230C57A238EF1C400123797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1230C583238EF1C400123797 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12A0325F22F57B690065D09C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -437,10 +609,12 @@
 				12A0326F22F57B690065D09C /* HelloWorld.xcdatamodeld in Sources */,
 				12CA8E6922FAA20C00538BA7 /* TestMemberwiseGenerating.swift in Sources */,
 				12AB51D622FC9AED0010D64B /* Difficulty.swift in Sources */,
+				1230C59B238EF30400123797 /* AppIntent.swift in Sources */,
 				12CA8E8022FC5A5E00538BA7 /* StringExtensions.swift in Sources */,
 				12A0326922F57B690065D09C /* ViewController.swift in Sources */,
 				120981D5237C1A880090EA1A /* WeatherModel.swift in Sources */,
 				12A0326722F57B690065D09C /* AppDelegate.swift in Sources */,
+				1230C599238EF29100123797 /* Intents.intentdefinition in Sources */,
 				120981D7237C1B430090EA1A /* WeatherApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +640,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1230C589238EF1C400123797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1230C57D238EF1C400123797 /* HelloWorldIntentsUI */;
+			targetProxy = 1230C588238EF1C400123797 /* PBXContainerItemProxy */;
+		};
+		1230C58C238EF1C400123797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1230C574238EF1C400123797 /* HelloWorldIntents */;
+			targetProxy = 1230C58B238EF1C400123797 /* PBXContainerItemProxy */;
+		};
 		12A0327C22F57B6B0065D09C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 12A0326222F57B690065D09C /* HelloWorld */;
@@ -479,6 +663,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1230C584238EF1C400123797 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1230C585238EF1C400123797 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		12A0326A22F57B690065D09C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +690,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1230C58F238EF1C400123797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXSKSS3W47;
+				INFOPLIST_FILE = HelloWorldIntentsUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkrulich.HelloWorld.HelloWorldIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1230C590238EF1C400123797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXSKSS3W47;
+				INFOPLIST_FILE = HelloWorldIntentsUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkrulich.HelloWorld.HelloWorldIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1230C592238EF1C400123797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXSKSS3W47;
+				INFOPLIST_FILE = HelloWorldIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkrulich.HelloWorld.HelloWorldIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1230C593238EF1C400123797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXSKSS3W47;
+				INFOPLIST_FILE = HelloWorldIntents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidkrulich.HelloWorld.HelloWorldIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		12A0328C22F57B6B0065D09C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -620,6 +892,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloWorld/HelloWorld.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXSKSS3W47;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
@@ -642,6 +915,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloWorld/HelloWorld.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXSKSS3W47;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
@@ -749,6 +1023,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1230C58E238EF1C400123797 /* Build configuration list for PBXNativeTarget "HelloWorldIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1230C58F238EF1C400123797 /* Debug */,
+				1230C590238EF1C400123797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1230C591238EF1C400123797 /* Build configuration list for PBXNativeTarget "HelloWorldIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1230C592238EF1C400123797 /* Debug */,
+				1230C593238EF1C400123797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		12A0325E22F57B690065D09C /* Build configuration list for PBXProject "HelloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
