@@ -175,13 +175,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		120981D3237C1A790090EA1A /* Weather */ = {
+		12084D7023CF5AFB00006F4F /* Old Files */ = {
+			isa = PBXGroup;
+			children = (
+				12AB51D522FC9AED0010D64B /* Difficulty.swift */,
+				122A5619233D3843006625EB /* FooViewController.swift */,
+				12CA8E6822FAA20C00538BA7 /* TestMemberwiseGenerating.swift */,
+			);
+			path = "Old Files";
+			sourceTree = "<group>";
+		};
+		12084D7123CF5B3400006F4F /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				12084D7623CF5BB100006F4F /* DataSources */,
+				120981D3237C1A790090EA1A /* Models */,
+				12084D7423CF5B9E00006F4F /* ViewControllers */,
+				12084D7523CF5BA400006F4F /* ViewModels */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		12084D7223CF5B3D00006F4F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				12CA8E7822FC597200538BA7 /* Extensions */,
+				12084D7023CF5AFB00006F4F /* Old Files */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		12084D7423CF5B9E00006F4F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		12084D7523CF5BA400006F4F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		12084D7623CF5BB100006F4F /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		120981D3237C1A790090EA1A /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				120981D4237C1A880090EA1A /* WeatherModel.swift */,
 				120981D6237C1B430090EA1A /* WeatherApi.swift */,
 			);
-			path = Weather;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		1230C576238EF1C400123797 /* HelloWorldIntents */ = {
@@ -234,15 +285,12 @@
 		12A0326522F57B690065D09C /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				12084D7223CF5B3D00006F4F /* Core */,
+				12084D7123CF5B3400006F4F /* Weather */,
 				1230C570238EF1AE00123797 /* HelloWorld.entitlements */,
-				120981D3237C1A790090EA1A /* Weather */,
-				12CA8E7822FC597200538BA7 /* Extensions */,
 				12A0326622F57B690065D09C /* AppDelegate.swift */,
 				1230C59A238EF30400123797 /* AppIntent.swift */,
-				12AB51D522FC9AED0010D64B /* Difficulty.swift */,
 				12A0326822F57B690065D09C /* ViewController.swift */,
-				122A5619233D3843006625EB /* FooViewController.swift */,
-				12CA8E6822FAA20C00538BA7 /* TestMemberwiseGenerating.swift */,
 				12A0326A22F57B690065D09C /* Main.storyboard */,
 				12A0327022F57B6A0065D09C /* Assets.xcassets */,
 				12A0327222F57B6A0065D09C /* LaunchScreen.storyboard */,
