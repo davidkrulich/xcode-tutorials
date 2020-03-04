@@ -12,8 +12,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
 
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(didBecomeActive), name: UIApplication.didBecomeActiveNotification, object: nil)
+        
         // Do any additional setup after loading the view.
         print("Hello World")
         
@@ -35,5 +42,10 @@ class ViewController: UIViewController {
 //
 //        let number: Int? = "132".parseInt()
 //        print(number ?? 2)
+    }
+    
+    @objc private func didBecomeActive() {
+        let settings = SystemSettingsService(userDefaults: .standard)
+        label.text = "Function enabled: \(settings.isFunctionalityEnabled.description)"
     }
 }
